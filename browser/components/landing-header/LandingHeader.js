@@ -5,13 +5,8 @@ export default class LandingHeader extends Component {
 
   render () {
     return (
-      <div className="row landing">
-        <div className="col-md-6" id="left">
-          <p>MyPicture</p>
-        </div>
-        <div className="col-md-6" id="right">
-          <p>Intro</p>
-        </div>
+      <div className="site-wrapper">
+
       </div>
     );
   }
