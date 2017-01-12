@@ -1,4 +1,3 @@
-
 'use strict';
 
 var webpack = require('webpack');
@@ -11,12 +10,6 @@ module.exports = {
   },
   context: __dirname,
   devtool: 'source-map',
-  resolve: {
-    extensions:['', '.js', '.jsx', '.css'],
-    moduleDirectories: [
-      'node_modules'
-    ]
-  },
   module: {
     loaders: [
       {
@@ -26,10 +19,6 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
-      },
-      {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader'
       }
     ]
   },

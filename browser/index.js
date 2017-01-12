@@ -1,21 +1,24 @@
 'use strict';
 
+// Containers
+import HomePageContainer from './components/home-page/HomePageContainer';
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
-import App from './Components/App';
-import { Provider } from 'react-redux';
 import store from './store';
+import { Provider } from 'react-redux';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 
-
-// the provider gives every component/container access to the store
 ReactDOM.render(
   <Provider store={store}>
-  <div className="container-fluid">
-    <Router history={browserHistory}>
-        <Route path="/" component={App}/>
-    </Router>
-  </div>
+    <div>
+      <Router history={browserHistory}>
+        <Route path="/">
+          <IndexRoute component={HomePageContainer} />
+        </Route>
+      </Router>
+    </div>
   </Provider>,
   document.getElementById('app')
 );

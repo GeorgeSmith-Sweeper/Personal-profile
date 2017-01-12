@@ -1,6 +1,32 @@
-#left {
-  background: red;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body, html {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
 #right {
-  background: blue;
+  background-color: yellow;
+  height: 100px;
 }
+#left {
+  background-color: teal;
+  height: 100px
+}
+
+#projects-right {
+  background-color: green;
+  height: 100px;
+}
+#projects-left {
+  background-color: orange;
+  height: 100px
+}
+
+
