@@ -6,7 +6,7 @@ export default class NavigationBar extends Component {
 
   render () {
     return (
-      <div>
+      <div className="navbar">
         <Navbar collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
