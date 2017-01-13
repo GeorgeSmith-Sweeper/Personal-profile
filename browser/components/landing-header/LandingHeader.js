@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { Jumbotron, Button } from 'react-bootstrap';
-
-const landingList = ['Developer', 'VREnthusiast', 'Tinkerer']
+import { Row, Col, Button } from 'react-bootstrap';
 
 export default class LandingHeader extends Component {
 
   render () {
     return (
       <div className="landing">
-        <Jumbotron>
-          <h1>George Smith-Sweeper</h1>
-          <ul className="landing-list">
-          {
-            landingList.map((element, i) => {
-              return <li key={i}>{element}</li>
-            })
-          }
-          </ul>
-        </Jumbotron>
+        <Row>
+          <Col sm={12}>
+            <div className="statement">
+              <h1>FRONT-END DEVELOPER / VR ENTHUSIAST</h1>
+              <p>
+                <span>
+                Hey, I'm George. I enjoy creating gorgeous applications,
+                and making objects in virtual reality.
+                </span>
+              </p>
+            </div>
+          </Col>
+        </Row>
       </div>
     );
   }

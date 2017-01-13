@@ -12,8 +12,8 @@ export default class HomePage extends Component {
       <div>
         <NavigationBar />
         <LandingHeader />
-        <AboutMe />
         <ProjectsSection />
+        <AboutMe />
       </div>
     );
   }
