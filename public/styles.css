@@ -21,7 +21,7 @@
 }
 
 .landing h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .landing span {
@@ -40,8 +40,13 @@
   text-align: center;
 }
 
-#projects-title {
-  font-size: 25;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.projects span {
+  font-size: 15px;
 }
+
+#projects-title {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
