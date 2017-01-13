@@ -7,9 +7,9 @@
 
 .landing {
   display: flex;
-  background-color: #363F48;
+  background-color: #042D5B;
   min-height: 500px;
-  color: #FFFFFF;
+  color: #F2CB6C;
   text-align: center;
   font-family: 'VT323', monospace;
   justify-content: center;
@@ -29,24 +29,32 @@
 }
 
 .about-me {
+  font-family: 'VT323', monospace;
+  min-height: 500px;
   text-align: center;
+  background-color: #042D5B;
+  color: #F2CB6C;
 }
 
 .projects {
   font-family: 'VT323', monospace;
   min-height: 500px;
   color: white;
-  background-color: blue;
+  background-color: #042D5B;
   text-align: center;
+  color: #F2CB6C;
 }
 
 .projects span {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #projects-title {
-  font-size: 25px;
   padding-top: 15px;
   padding-bottom: 10px;
 }
 
+.divider {
+  min-height: 30px;
+  background-color: white;
+}

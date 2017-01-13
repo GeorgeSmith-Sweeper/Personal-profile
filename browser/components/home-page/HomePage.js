@@ -9,10 +9,12 @@ export default class HomePage extends Component {
 
   render () {
     return (
-      <div>
+      <div className="container-fluid">
         <NavigationBar />
         <LandingHeader />
+        <div className="divider"></div>
         <ProjectsSection />
+        <div className="divider"></div>
         <AboutMe />
       </div>
     );

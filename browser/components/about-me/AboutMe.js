@@ -6,17 +6,19 @@ export default class AboutMe extends Component {
 
   render () {
     return (
-      <Grid fluid={true} className="about-me">
+      <div className="about-me">
         <Row>
           <Col xs={12} sm={5} md={5} lg={5} id="head-shot">
-            <p>PICTURE</p>
+            <h1>George Smith-Sweeper</h1>
+            <img src="../../public/images/rsz_headshot.jpg"></img>
           </Col>
 
           <Col xs={12} sm={7} md={7} lg={7} id="description">
-            <p>About Me</p>
+            <h1>Who Am I?</h1>
+            <p><span>Based out of brooklyn</span></p>
           </Col>
         </Row>
-      </Grid>
+      </div>
     );
   }
 }
