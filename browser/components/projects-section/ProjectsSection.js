@@ -8,6 +8,7 @@ export default class ProjectsSection extends Component {
   render () {
     return (
           <div className="projects">
+          <a name="projects"></a>
             <Row>
               <h1 id="projects-title">PROJECTS / TALKS</h1>
                 <Col xs={12} sm={12} md={6} lg={6}>

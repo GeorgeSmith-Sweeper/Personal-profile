@@ -1,8 +1,7 @@
-.navbar {
+.navigation {
   font-family: 'VT323', monospace;
-  margin: 0;
-  border: none;
-  font-size: 25px;
+  background-color: #042D5B;
+  list-style: none;
 }
 
 .landing {

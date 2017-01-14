@@ -7,6 +7,7 @@ export default class AboutMe extends Component {
   render () {
     return (
       <div className="about-me">
+        <a name="AB-me"></a>
         <Row>
           <Col xs={12} sm={5} md={5} lg={5} id="head-shot">
             <h1>George Smith-Sweeper</h1>

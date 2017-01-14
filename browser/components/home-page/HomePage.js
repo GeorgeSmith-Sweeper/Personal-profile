@@ -9,7 +9,7 @@ export default class HomePage extends Component {
 
   render () {
     return (
-      <div className="container-fluid">
+      <div>
         <NavigationBar />
         <LandingHeader />
         <div className="divider"></div>
