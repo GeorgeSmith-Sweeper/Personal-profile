@@ -29,7 +29,6 @@
 
 .about-me {
   font-family: 'VT323', monospace;
-  /*min-height: 500px;*/
   text-align: center;
   background-color: #042D5B;
   color: #F2CB6C;
@@ -41,7 +40,6 @@
 
 .projects {
   font-family: 'VT323', monospace;
-  /*min-height: 500px;*/
   color: white;
   background-color: #042D5B;
   text-align: center;
