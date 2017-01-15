@@ -10,11 +10,11 @@ export default class NavigationBar extends Component {
   render () {
     return (
       <div className="navbar-fixed navigation">
-        <Navbar brand='logo' right>
-          <NavItem href='#AB-me'>Getting started</NavItem>
-          <NavItem href="#projects">Projects</NavItem>
-          <NavItem href='#contact'>Contact Me</NavItem>
-        </Navbar>
+          <Navbar brand='George Smith-Sweeper' right>
+            <NavItem href='#AB-me'>Getting started</NavItem>
+            <NavItem href="#projects">Projects</NavItem>
+            <NavItem href='#contact'>Contact Me</NavItem>
+          </Navbar>
       </div>
     );
   }

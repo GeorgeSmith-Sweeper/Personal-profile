@@ -19,7 +19,6 @@ export default class AboutMe extends Component {
             <p>
               <span>
                 I enjoy solving puzzles, and taking complex problems and explaining them in a way that is easy for anyone to grasp. Programming is essentially a puzzle that can be put together in many different ways, but the key is finding the most efficient way to do it. I try to do things in a step by step fashion, and focus on effective planning to get me through the day, so I'm not wasting time doing the same thing twice.
-
               </span>
             </p>
           </Col>
