@@ -11,8 +11,8 @@ export default class NavigationBar extends Component {
     return (
       <div className="navbar-fixed navigation">
           <Navbar brand='George Smith-Sweeper' right>
-            <NavItem href='#AB-me'>Getting started</NavItem>
             <NavItem href="#projects">Projects</NavItem>
+            <NavItem href='#AB-me'>About Me</NavItem>
             <NavItem href='#contact'>Contact Me</NavItem>
           </Navbar>
       </div>

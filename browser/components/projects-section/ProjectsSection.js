@@ -9,7 +9,7 @@ export default class ProjectsSection extends Component {
     return (
           <div className="projects">
           <a name="projects"></a>
-            <Row>
+            <Row className="no-margin">
               <h1 id="projects-title">PROJECTS / TALKS</h1>
                 <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
