@@ -29,7 +29,7 @@
 
 .about-me {
   font-family: 'VT323', monospace;
-  min-height: 500px;
+  /*min-height: 500px;*/
   text-align: center;
   background-color: #042D5B;
   color: #F2CB6C;
@@ -41,7 +41,7 @@
 
 .projects {
   font-family: 'VT323', monospace;
-  min-height: 500px;
+  /*min-height: 500px;*/
   color: white;
   background-color: #042D5B;
   text-align: center;
@@ -60,4 +60,20 @@
 .divider {
   min-height: 30px;
   background-color: white;
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
