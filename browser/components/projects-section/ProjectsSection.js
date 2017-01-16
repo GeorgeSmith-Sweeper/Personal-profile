@@ -24,7 +24,8 @@ export default class ProjectsSection extends Component {
                     </p>
                   </div>
                 </Col>
-                 <Col xs={12} sm={12} md={6} lg={3}>
+
+                <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Tails</h2>
                     <div className="video-container">
@@ -51,6 +52,7 @@ export default class ProjectsSection extends Component {
                     </p>
                   </div>
                 </Col>
+
                 <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Home Cooked</h2>
@@ -64,6 +66,7 @@ export default class ProjectsSection extends Component {
                     </p>
                   </div>
                 </Col>
+
             </Row>
           </div>
     );

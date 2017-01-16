@@ -44,6 +44,7 @@
   background-color: #042D5B;
   text-align: center;
   color: #F2CB6C;
+  padding-bottom: 2.1rem;
 }
 
 .projects span {
@@ -73,4 +74,12 @@
 
 .no-margin {
   margin-bottom: 0;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+nav .brand-logo {
+  padding-left: 10px;
 }
