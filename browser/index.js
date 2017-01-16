@@ -12,7 +12,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 
 ReactDOM.render(
   <Provider store={store}>
-    <div>
+    <div className="container-fluid">
       <Router history={browserHistory}>
         <Route path="/">
           <IndexRoute component={HomePageContainer} />

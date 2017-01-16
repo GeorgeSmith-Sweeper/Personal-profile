@@ -1,6 +1,6 @@
-.navigation {
+nav {
+  background-color: orange;
   font-family: 'VT323', monospace;
-  background-color: #042D5B;
   list-style: none;
 }
 
