@@ -9,13 +9,11 @@ export default class NavigationBar extends Component {
 
   render () {
     return (
-      <div className="navigation" >
-          <Navbar brand='George Smith-Sweeper' right>
-            <NavItem href="#projects">Projects</NavItem>
-            <NavItem href='#AB-me'>About Me</NavItem>
-            <NavItem href='#contact'>Contact</NavItem>
-          </Navbar>
-      </div>
+      <Navbar brand='George Smith-Sweeper' right>
+        <NavItem href="#projects">Projects</NavItem>
+        <NavItem href='#AB-me'>About Me</NavItem>
+        <NavItem href='#contact'>Contact</NavItem>
+      </Navbar>
     );
   }
 }
