@@ -1,14 +1,20 @@
 nav {
-  background-color: orange;
-  font-family: 'VT323', monospace;
+  background-color: #000000;
+  font-family: 'Ubuntu', sans-serif;
   list-style: none;
+  color: black;
+  display: transparent;
+}
+
+body {
+ background-color: #000000;
 }
 
 .landing {
   display: flex;
-  background-color: #042D5B;
+  background-color: #FFEB3B;
   min-height: 500px;
-  color: #F2CB6C;
+  color: #000000;
   text-align: center;
   font-family: 'VT323', monospace;
   justify-content: center;
@@ -28,32 +34,38 @@ nav {
 }
 
 .about-me {
-  font-family: 'VT323', monospace;
-  text-align: center;
-  background-color: #042D5B;
-  color: #F2CB6C;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #FFEB3B;
+  color: #000000;
 }
 
 .about-me span {
   font-size: 20px;
 }
 
-.projects {
+.about-me h1 {
   font-family: 'VT323', monospace;
+}
+
+.projects {
   color: white;
-  background-color: #042D5B;
+  background-color: #FFEB3B;
   text-align: center;
-  color: #F2CB6C;
+  color: #000000;
   padding-bottom: 2.1rem;
 }
 
 .projects span {
-  font-size: 20px;
+  /*font-size: 20px;*/
+}
+
+.projects h1 {
+  font-family: 'VT323', monospace;
 }
 
 .divider {
   min-height: 30px;
-  background-color: white;
+  background-color: #000000;
 }
 
 .video-container {
@@ -80,8 +92,9 @@ a:focus, a:hover {
   text-decoration: none;
 }
 
-nav .brand-logo {
-  padding-left: 10px;
+#technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-

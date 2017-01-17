@@ -23,16 +23,15 @@ export default class AboutMe extends Component {
             </p>
           </Col>
           <Row>
-          <Col xs={12} sm={6} md={6} lg={6} id="description">
-            <h2>Technologies</h2>
+          <Col xs={12} sm={6} md={6} lg={6} id="technologies">
               <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/react-js.png" responsive ></Image>
+                <Image src="../../public/images/react-js.png" className="img-align"responsive ></Image>
               </Col>
               <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/css3logo.png" responsive></Image>
+                <Image src="../../public/images/css3logo.png" className="img-align" responsive></Image>
               </Col>
               <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/Boostrap_logo.svg.png" responsive></Image>
+                <Image src="../../public/images/Boostrap_logo.svg.png" className="img-align"responsive></Image>
               </Col>
           </Col>
           </Row>
