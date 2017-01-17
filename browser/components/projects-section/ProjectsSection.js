@@ -11,7 +11,7 @@ export default class ProjectsSection extends Component {
           <a name="projects"></a>
             <Row className="no-margin">
               <h1 id="projects-title">PROJECTS / TALKS</h1>
-                <Col xs={12} sm={6} md={6} lg={3}>
+                <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Loop</h2>
                     <div className="video-container">
@@ -19,13 +19,13 @@ export default class ProjectsSection extends Component {
                     </div>
                     <p>
                       <span>
-                      A tool for giving teachers realtime feedback from students in the classroom.
+                        A tool for giving teachers realtime feedback from students in the classroom.
                       </span>
                     </p>
                   </div>
                 </Col>
 
-                <Col xs={12} sm={6} md={6} lg={3}>
+                <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Tails</h2>
                     <div className="video-container">
@@ -39,7 +39,7 @@ export default class ProjectsSection extends Component {
                   </div>
                 </Col>
 
-                <Col xs={12} sm={6} md={6} lg={3}>
+                <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Cube Master</h2>
                     <div className="video-container">
@@ -53,7 +53,7 @@ export default class ProjectsSection extends Component {
                   </div>
                 </Col>
 
-                <Col xs={12} sm={6} md={6} lg={3}>
+                <Col xs={12} sm={12} md={6} lg={3}>
                   <div className="statement">
                     <h2>Home Cooked</h2>
                     <div className="video-container">
