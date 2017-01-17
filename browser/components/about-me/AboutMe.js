@@ -10,7 +10,6 @@ export default class AboutMe extends Component {
         <a name="AB-me"></a>
         <Row>
           <Col xs={12} sm={6} md={6} lg={6} id="head-shot">
-            <h2>George Smith-Sweeper</h2>
             <Image src="../../public/images/rsz_headshot.jpg" rounded></Image>
           </Col>
 
@@ -24,14 +23,17 @@ export default class AboutMe extends Component {
           </Col>
           <Row>
           <Col xs={12} sm={6} md={6} lg={6} id="technologies">
-              <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/react-js.png" className="img-align"responsive ></Image>
+              <Col xs={6} sm={3} md={3} lg={3}>
+                <Image src="../../public/images/react-js.png" responsive ></Image>
               </Col>
-              <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/css3logo.png" className="img-align" responsive></Image>
+              <Col xs={6} sm={3} md={3} lg={3}>
+                <Image src="../../public/images/css3logo.png" responsive></Image>
               </Col>
-              <Col xs={6} sm={4} md={4} lg={4}>
-                <Image src="../../public/images/Boostrap_logo.svg.png" className="img-align"responsive></Image>
+              <Col xs={6} sm={3} md={3} lg={3}>
+                <Image src="../../public/images/JavaScriptLogo.png"responsive></Image>
+              </Col>
+              <Col xs={6} sm={3} md={3} lg={3}>
+                <Image src="../../public/images/Boostrap_logo.svg.png"responsive></Image>
               </Col>
           </Col>
           </Row>
@@ -40,9 +42,3 @@ export default class AboutMe extends Component {
     );
   }
 }
-              // <Col xs={12} sm={12} md={6} lg={3}>
-              //   <Image src="../../public/images/"></Image>
-              // </Col>
-              // <Col xs={12} sm={12} md={6} lg={3}>
-              //   <Image src="../../public/images/"></Image>
-              // </Col>

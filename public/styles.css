@@ -5,6 +5,9 @@ nav {
   color: black;
   display: transparent;
 }
+nav .brand-logo {
+  padding-left: 15px;
+}
 
 body {
  background-color: #000000;
@@ -20,7 +23,6 @@ body {
   justify-content: center;
   align-items: center;
   /* uncomment if using an image*/
-
  /* background-size: cover;
   background-repeat: no-repeat;*/
 }
@@ -56,10 +58,10 @@ body {
 }
 
 .projects span {
-  /*font-size: 20px;*/
+  font-size: 20px;
 }
 
-.projects h1 {
+.projects h1, h2 {
   font-family: 'VT323', monospace;
 }
 
@@ -90,6 +92,7 @@ body {
 
 a:focus, a:hover {
   text-decoration: none;
+  color: #FFEB3B;
 }
 
 #technologies {
