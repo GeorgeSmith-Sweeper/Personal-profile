@@ -107,50 +107,75 @@ nav .brand-logo {
   text-align: left;
 }
 
-#head-shot {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.no-margin {
+.no-bottom-margin {
   margin-bottom: 0;
 }
 
-.head-shot {
+#head-shot {
   margin-top: 1%;
   margin-bottom: 1%;
 }
+
 /***********************************************************************/
 
 
-@media (max-width: 800px, min-width: 602) {
-  .head-shot {
-    margin: 10% 0% 5% 0%;
+@media (max-width: 1024px) {
+  #head-shot {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  #head-shot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 414px) {
+  #head-shot {
+    margin: 5% 0px 0px 12%;
   }
 
   .about-me h3 {
     text-align: center;
   }
-}
-
-@media (max-width: 601px) {
-  .head-shot {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-  }
-
-  .about-me h3, p {
+  .about-me p {
     text-align: center;
   }
 }
 
+@media (max-width: 375px) {
+  #head-shot {
+    margin: 5% 0px 0px 8%;
+  }
 
-/*lowest resolution
-margin: 5% 0px 5% 10%;
-mid resolution
-margin: 5% 0% 5% 1%;
-*/
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+
+  nav .brand-logo {
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  #head-shot {
+    margin: 1% 0px 0px 1%;
+  }
+
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+
+  nav .brand-logo {
+    padding-left: 35px;
+  }
+}

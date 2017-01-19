@@ -7,9 +7,9 @@ export default class AboutMe extends Component {
     return (
        <div className="about-me">
         <a name="ab-me"></a>
-        <div className="row no-margin">
-          <div className="col s12 m4 l3">
-            <img className="circle responsive-img head-shot" src="../../public/images/rsz_headshot.jpg"/>
+        <div className="row no-bottom-margin">
+          <div className="col s12 m4 l3 head-shot">
+            <img className="circle responsive-img" id="head-shot" src="../../public/images/rsz_headshot.jpg"/>
           </div>
           <div className="col s12 m8 l9">
             <h3>Who am I?</h3>
