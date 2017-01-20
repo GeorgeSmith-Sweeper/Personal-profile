@@ -18,6 +18,10 @@ export default class AboutMe extends Component {
             <p>Looking for help with a project? Reach out to me!</p>
 
             <div className="social">
+              <a href="https://github.com/GeorgeSmith-Sweeper"><i id="github" className="fa fa-github-square" aria-hidden="true"> </i></a>
+              <a href="https://www.linkedin.com/in/george-smith-sweeper-087b753a
+"><i id="linkedin" className="fa fa-linkedin" aria-hidden="true"> </i></a>
+              <a href="https://angel.co/george-smith-sweeper"><i id="angellist" className="fa fa-angellist" aria-hidden="true"> </i></a>
             </div>
           </div>
         </div>

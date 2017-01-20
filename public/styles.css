@@ -154,11 +154,15 @@ nav .brand-logo {
       color: #ED780E;
     }
 
+    &#plus:hover {
+      color: #D43402;
+    }
+
     &#mail:hover {
       color: #F7B401;
     }
   }
-}s
+}
 
 /*****************************************************************/
 @media (max-width: 1024px) {
