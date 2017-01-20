@@ -16,6 +16,9 @@ export default class AboutMe extends Component {
             <p>I am a new JavaScript developer who enjoys solving puzzles, and taking complex problems and explaining them in a way that is easy for anyone to grasp.</p>
             <p>Most of my projects have been built using React, Bootstrap, CSS, and JavaScript, but I also have experience with Unity, and Vueforia. This site will continue to evolve as my skill set grows, and frameworks change.</p>
             <p>Looking for help with a project? Reach out to me!</p>
+
+            <div className="social">
+            </div>
           </div>
         </div>
       </div>
