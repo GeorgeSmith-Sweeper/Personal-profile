@@ -121,7 +121,44 @@ nav .brand-logo {
 
 /* handles all styles in the social media icons */
 /*****************************************************************/
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+
+    &:hover {
+      margin-top: -1px;
+    }
+
+    &#github:hover {
+      color: black;
+    }
+
+    &#linkedin:hover {
+      color: #0177B5;
+    }
+
+    &#stack:hover {
+      color: #ED780E;
+    }
+
+    &#mail:hover {
+      color: #F7B401;
+    }
+  }
+}s
 
 /*****************************************************************/
 @media (max-width: 1024px) {
