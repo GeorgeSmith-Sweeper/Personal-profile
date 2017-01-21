@@ -22,6 +22,7 @@ export default class AboutMe extends Component {
               <a href="https://www.linkedin.com/in/george-smith-sweeper-087b753a
 "><i id="linkedin" className="fa fa-linkedin" aria-hidden="true"> </i></a>
               <a href="https://angel.co/george-smith-sweeper"><i id="angellist" className="fa fa-angellist" aria-hidden="true"> </i></a>
+              <a href="mailto:george.smsweeper@gmail.com"><i id="mail" className="fa fa-envelope" aria-hidden="true"> </i></a>
             </div>
           </div>
         </div>

@@ -157,7 +157,8 @@ i {
 }
 
 #mail:hover {
-  color: #F7B401;
+  color: #88D8B0;
+  transition: color 300ms ease;
   transform: scale(1.5,1.5);
 }
 
