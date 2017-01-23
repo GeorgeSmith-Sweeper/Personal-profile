@@ -9,6 +9,6 @@ app.use(volleyball);
 
 app.use(express.static(__dirname));
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log('Server listening on port', process.env.PORT || 3000)
+const server = app.listen(process.env.PORT || 3000, function () {
+  console.log((`Listening on ${JSON.stringify(server.address())}`))
 });
