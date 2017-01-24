@@ -13,11 +13,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 ReactDOM.render(
   <Provider store={store}>
     <div>
-      <Router history={browserHistory}>
-        <Route path="/">
-          <IndexRoute component={HomePageContainer} />
-        </Route>
-      </Router>
+      <HomePageContainer} />
     </div>
   </Provider>,
   document.getElementById('app')
