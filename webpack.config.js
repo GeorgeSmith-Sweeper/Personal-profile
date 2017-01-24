@@ -3,13 +3,15 @@
 var webpack = require('webpack');
 
 module.exports = {
+  devtool: 'source-map',
+
   entry: './browser/index.js',
+
   output: {
     path: __dirname,
     filename: './public/bundle.js'
   },
   context: __dirname,
-  devtool: 'source-map',
   module: {
     loaders: [
       {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import LandingHeader from '../landing-header/LandingHeader';
-import ProjectsSection from '../projects-section/ProjectsSection';
+import LandingHeaderContainer from '../landing-header/LandingHeaderContainer';
+import ProjectsSectionContainer from '../projects-section/ProjectsSectionContainer';
 import NavigationBar from '../nav-bar/NavBar';
-import AboutMe from '../about-me/AboutMe';
+import AboutMeContainer from '../about-me/AboutMeContainer';
 
 export default class HomePage extends Component {
 
@@ -11,11 +11,11 @@ export default class HomePage extends Component {
     return (
       <div>
         <NavigationBar />
-        <LandingHeader />
+        <LandingHeaderContainer />
         <div className="divider"></div>
-        <ProjectsSection />
+        <ProjectsSectionContainer />
         <div className="divider"></div>
-        <AboutMe />
+        <AboutMeContainer />
       </div>
     );
   }
