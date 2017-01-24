@@ -13,7 +13,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 ReactDOM.render(
   <Provider store={store}>
     <div>
-      <HomePageContainer} />
+      <HomePageContainer />
     </div>
   </Provider>,
   document.getElementById('app')
